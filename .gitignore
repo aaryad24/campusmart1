@@ -1,0 +1,29 @@
+# Ignore node modules and builds
+node_modules/
+build/
+dist/
+
+# Ignore system files
+.DS_Store
+
+# Ignore lock files (optional)
+package-lock.json
+yarn.lock
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore .env
+.env
+
+# Ignore coverage reports
+coverage/
+
+# React specific
+client/node_modules/
+client/build/
+
+# VS Code
+.vscode/
